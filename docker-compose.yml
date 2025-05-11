@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./property-selling-backend-2
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./property-selling-backend-2:/app
+    environment:
+      - PORT=3000
+    working_dir: /app
+    command: npm run dev
+
+  frontend:
+    build: ./property-selling-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./property-selling-frontend:/app
+    environment:
+      - PORT=5173
+    working_dir: /app
+    command: npm run dev
+
