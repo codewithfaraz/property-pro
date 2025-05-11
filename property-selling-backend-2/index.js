@@ -1,3 +1,4 @@
+require('./tracing');
 const express = require("express");
 const mongoose = require("mongoose");
 const buyerControllers = require("./controllers/buyer-controllers");
