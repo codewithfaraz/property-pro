@@ -1,0 +1,8 @@
+frontend:
+  name: frontend
+  image: daud772/frontend:latest
+
+backend:
+  name: backend
+  image: daud772/backend:latest
+
