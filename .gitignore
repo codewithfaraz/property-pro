@@ -1,0 +1,17 @@
+# Ignore the extra project
+property-selling-cursor/
+
+# Frontend ignores
+property-selling-frontend/node_modules/
+property-selling-frontend/build/
+property-selling-frontend/.env
+
+# Backend ignores
+property-selling-backend/node_modules/
+property-selling-backend/dist/
+property-selling-backend/config.env
+property-selling-backend/logs/
+
+# General
+.DS_Store
+*.log
