@@ -7,10 +7,10 @@ property-selling-frontend/build/
 property-selling-frontend/.env
 
 # Backend ignores
-property-selling-backend/node_modules/
-property-selling-backend/dist/
-property-selling-backend/config.env
-property-selling-backend/logs/
+property-selling-backend-2/node_modules/
+property-selling-backend-2/dist/
+property-selling-backend-2/config.env
+property-selling-backend-2/logs/
 
 # General
 .DS_Store
